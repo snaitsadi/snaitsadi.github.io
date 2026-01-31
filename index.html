@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samir Nait Sadi | Expert IA & GenAI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a0a0c;
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .text-gradient {
+            background: linear-gradient(to right, #60a5fa, #34d399);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="text-slate-200">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-[#0a0a0c]/80 backdrop-blur-md border-b border-white/5">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <span class="text-xl font-bold text-gradient">SNS.IA</span>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-400">
+                <a href="#home" class="hover:text-white transition-colors">Accueil</a>
+                <a href="#projets" class="hover:text-white transition-colors">Projets</a>
+                <a href="#competences" class="hover:text-white transition-colors">Compétences</a>
+                <a href="#contact" class="hover:text-white transition-colors text-blue-400">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-32 pb-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="inline-flex items-center px-3 py-1 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 text-xs font-medium mb-6">
+                <span class="relative flex h-2 w-2 mr-2">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+                </span>
+                Disponible Avril 2026 • Stage 4-6 mois
+            </div>
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
+                Samir <span class="text-blue-500">Nait Sadi</span>
+            </h1>
+            <p class="text-xl text-slate-400 mb-8 max-w-2xl mx-auto leading-relaxed">
+                Étudiant en <span class="text-white font-medium">Master 2 IA</span> à l'Université de Bordeaux. 
+                Passionné par l'IA Générative, le Reinforcement Learning et l'ingénierie des systèmes intelligents.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <button class="px-8 py-3 bg-white text-black font-semibold rounded-lg hover:bg-slate-200 transition-all flex items-center gap-2">
+                    <i data-lucide="download" class="w-4 h-4"></i> Télécharger CV
+                </button>
+                <div class="flex gap-2">
+                    <a href="https://github.com/snaitsadi" class="p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all">
+                        <i data-lucide="github" class="w-5 h-5"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/samir-nait-sadi" class="p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all">
+                        <i data-lucide="linkedin" class="w-5 h-5"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="competences" class="py-20 px-6 bg-white/[0.02]">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-white mb-12 flex items-center gap-3">
+                <i data-lucide="terminal" class="text-blue-500"></i> Expertise Technique
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Group 1 -->
+                <div class="p-6 rounded-2xl glass hover:border-blue-500/30 transition-all group">
+                    <h3 class="text-lg font-semibold text-blue-400 mb-4">IA Générative</h3>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li class="flex items-center gap-2"><div class="w-1 h-1 bg-slate-600 rounded-full group-hover:bg-blue-500"></div>GANs (CycleGAN, DCGAN)</li>
+                        <li class="flex items-center gap-2"><div class="w-1 h-1 bg-slate-600 rounded-full group-hover:bg-blue-500"></div>Stable Diffusion</li>
+                        <li class="flex items-center gap-2"><div class="w-1 h-1 bg-slate-600 rounded-full group-hover:bg-blue-500"></div>Voice Cloning</li>
+                    </ul>
+                </div>
+                <!-- Group 2 -->
+                <div class="p-6 rounded-2xl glass hover:border-blue-500/30 transition-all group">
+                    <h3 class="text-lg font-semibold text-blue-400 mb-4">Agents & LLMs</h3>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li class="flex items-center gap-2"><div class="w-1 h-1 bg-slate-600 rounded-full group-hover:bg-blue-500"></div>RAG / LangGraph</li>
+                        <li class="flex items-center gap-2"><div class="w-1 h-1 bg-slate-600 rounded-full group-hover:bg-blue-500"></div>CrewAI</li>
+                        <li class="flex items-center gap-2"><div class="w-1 h-1 bg-slate-600 rounded-full group-hover:bg-blue-500"></div>Fine-tuning BERT</li>
+                    </ul>
+                </div>
+                <!-- Group 3 -->
+                <div class="p-6 rounded-2xl glass hover:border-blue-500/30 transition-all group">
+                    <h3 class="text-lg font-semibold text-blue-400 mb-4">Computer Vision</h3>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li class="flex items-center gap-2"><div class="w-1 h-1 bg-slate-600 rounded-full group-hover:bg-blue-500"></div>YOLOv8 / RT-DETR</li>
+                        <li class="flex items-center gap-2"><div class="w-1 h-1 bg-slate-600 rounded-full group-hover:bg-blue-500"></div>U-Net / DeepLabV3</li>
+                        <li class="flex items-center gap-2"><div class="w-1 h-1 bg-slate-600 rounded-full group-hover:bg-blue-500"></div>OpenCV</li>
+                    </ul>
+                </div>
+                <!-- Group 4 -->
+                <div class="p-6 rounded-2xl glass hover:border-blue-500/30 transition-all group">
+                    <h3 class="text-lg font-semibold text-blue-400 mb-4">Outils & Dev</h3>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li class="flex items-center gap-2"><div class="w-1 h-1 bg-slate-600 rounded-full group-hover:bg-blue-500"></div>Python (Expert)</li>
+                        <li class="flex items-center gap-2"><div class="w-1 h-1 bg-slate-600 rounded-full group-hover:bg-blue-500"></div>PyTorch / TensorFlow</li>
+                        <li class="flex items-center gap-2"><div class="w-1 h-1 bg-slate-600 rounded-full group-hover:bg-blue-500"></div>Docker / Hugging Face</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projets" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+                <div>
+                    <h2 class="text-3xl font-bold text-white mb-4">Réalisations IA</h2>
+                    <p class="text-slate-400">Sélection de travaux académiques et personnels en SOTA.</p>
+                </div>
+            </div>
+
+            <div id="projects-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project 1 -->
+                <div class="group relative p-8 rounded-3xl glass hover:bg-white/[0.05] transition-all">
+                    <div class="mb-6 p-3 w-fit rounded-xl bg-blue-500/10 text-blue-500">
+                        <i data-lucide="cpu"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">Synthèse d'images GANs</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">Implémentation de réseaux antagonistes pour le transfert de style et la synthèse d'images réalistes.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/10 uppercase tracking-wider text-slate-500">PyTorch</span>
+                        <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/10 uppercase tracking-wider text-slate-500">CycleGAN</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="group relative p-8 rounded-3xl glass hover:bg-white/[0.05] transition-all">
+                    <div class="mb-6 p-3 w-fit rounded-xl bg-blue-500/10 text-blue-500">
+                        <i data-lucide="brain-circuit"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">Agent Autonome (RL)</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">Résolution du problème Mountain Car via Q-Learning et Deep Q-Network sur OpenAI Gym.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/10 uppercase tracking-wider text-slate-500">RL</span>
+                        <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/10 uppercase tracking-wider text-slate-500">DQN</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="group relative p-8 rounded-3xl glass hover:bg-white/[0.05] transition-all">
+                    <div class="mb-6 p-3 w-fit rounded-xl bg-blue-500/10 text-blue-500">
+                        <i data-lucide="message-square"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">Chatbot RAG Agentique</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">Architecture RAG pour l'interrogation de documents et flux agentiques avec LangGraph.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/10 uppercase tracking-wider text-slate-500">LangGraph</span>
+                        <span class="text-[10px] px-2 py-1 rounded bg-white/5 border border-white/10 uppercase tracking-wider text-slate-500">BERT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formation Section -->
+    <section class="py-20 px-6 bg-white/[0.02]">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-white mb-12 text-center">Parcours Académique</h2>
+            <div class="space-y-8">
+                <div class="relative pl-8 border-l border-white/10">
+                    <div class="absolute left-[-5px] top-0 w-[9px] h-[9px] bg-blue-500 rounded-full shadow-[0_0_10px_#3b82f6]"></div>
+                    <span class="text-blue-400 text-sm font-mono mb-2 block uppercase tracking-widest">2025 — 2026</span>
+                    <h3 class="text-xl font-bold text-white">Master 2 Intelligence Artificielle</h3>
+                    <p class="text-slate-400 mb-2">Université de Bordeaux, Talence</p>
+                    <p class="text-sm text-slate-500 italic">Spécialisation : Réseaux profonds, Vision, NLP et modèles génératifs.</p>
+                </div>
+                <div class="relative pl-8 border-l border-white/10">
+                    <div class="absolute left-[-5px] top-0 w-[9px] h-[9px] bg-slate-700 rounded-full"></div>
+                    <span class="text-slate-500 text-sm font-mono mb-2 block uppercase tracking-widest">2024 — 2025</span>
+                    <h3 class="text-xl font-bold text-white">Master 1 Informatique</h3>
+                    <p class="text-slate-400 mb-2">Université de Bordeaux, Talence</p>
+                    <p class="text-sm text-slate-500">Apprentissage statistique, fouille de données complexes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="bg-gradient-to-br from-blue-600 to-emerald-600 rounded-[2rem] p-8 md:p-16 text-center relative overflow-hidden">
+                <div class="relative z-10">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Prêt à collaborer ?</h2>
+                    <p class="text-blue-100 mb-10 max-w-md mx-auto opacity-90 leading-relaxed">
+                        Je recherche activement un stage de fin d'études en IA pour Avril 2026.
+                    </p>
+                    <a href="mailto:naitsamir2018@gmail.com" class="inline-flex items-center gap-3 px-10 py-4 bg-white text-blue-600 font-bold rounded-2xl hover:scale-105 transition-transform shadow-xl">
+                        <i data-lucide="mail" class="w-5 h-5"></i> Me contacter par email
+                    </a>
+                </div>
+                <!-- Background shapes -->
+                <div class="absolute top-0 right-0 -mr-24 -mt-24 w-80 h-80 bg-white/10 rounded-full blur-3xl"></div>
+                <div class="absolute bottom-0 left-0 -ml-24 -mb-24 w-80 h-80 bg-black/10 rounded-full blur-3xl"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-white/5 text-center text-slate-600 text-[10px] uppercase tracking-[0.2em]">
+        <p>© 2025 Samir Nait Sadi — Intelligence Artificielle & SOTA</p>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
